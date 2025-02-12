@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
+    <sys_ux_registry_m2m_category action="INSERT_OR_UPDATE">
+        <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
+        <order/>
+        <page_registry display_value="HomeWork_Aula_4_NowPro+">9a6881e395635210ddb154ae8f746f82</page_registry>
+        <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 02:33:43</sys_created_on>
+        <sys_id>5a6881e3a3635210935bde706e088770</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HomeWork_Aula_4" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HomeWork_Aula_4">c69f1e8283af5210211cb955eeaad39c</sys_scope>
+        <sys_update_name>sys_ux_registry_m2m_category_5a6881e3a3635210935bde706e088770</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 02:33:43</sys_updated_on>
+    </sys_ux_registry_m2m_category>
+</record_update>

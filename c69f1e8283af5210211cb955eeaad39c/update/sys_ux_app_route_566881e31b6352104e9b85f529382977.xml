@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="HomeWork_Aula_4_NowPro+ App Config">5e6881e33963521026f6ead984d91282</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Home</name>
+        <optional_parameters>sysId,edit</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>home</route_type>
+        <screen_type display_value="Home">166881e3d1635210f898e993ddce0d78</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 02:33:42</sys_created_on>
+        <sys_id>566881e31b6352104e9b85f529382977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="HomeWork_Aula_4" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HomeWork_Aula_4">c69f1e8283af5210211cb955eeaad39c</sys_scope>
+        <sys_update_name>sys_ux_app_route_566881e31b6352104e9b85f529382977</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 02:33:42</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=566881e31b6352104e9b85f529382977"/>
+</record_update>

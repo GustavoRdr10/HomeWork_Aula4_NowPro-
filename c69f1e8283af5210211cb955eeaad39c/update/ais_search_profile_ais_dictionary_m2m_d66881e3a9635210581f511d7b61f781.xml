@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="default_stop_word_dictionary">9865058bc7031010d1cfd9795cc26037</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="homeworkaula4nowpro Search Profile">166881e34d6352102ceab2c20a258782</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 02:33:42</sys_created_on>
+        <sys_id>d66881e3a9635210581f511d7b61f781</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>default_stop_word_dictionary.homeworkaula4nowpro Search Profile</sys_name>
+        <sys_package display_value="HomeWork_Aula_4" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HomeWork_Aula_4">c69f1e8283af5210211cb955eeaad39c</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_d66881e3a9635210581f511d7b61f781</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 02:33:42</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

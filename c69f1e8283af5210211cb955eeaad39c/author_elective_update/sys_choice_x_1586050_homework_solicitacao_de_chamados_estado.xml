@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="estado" table="x_1586050_homework_solicitacao_de_chamados" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>estado</element>
+            <name>x_1586050_homework_solicitacao_de_chamados</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-07 17:43:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>estado</sys_name>
+            <sys_package display_value="HomeWork_Aula_4" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HomeWork_Aula_4">c69f1e8283af5210211cb955eeaad39c</sys_scope>
+            <sys_update_name>sys_choice_x_1586050_homework_solicitacao_de_chamados_estado</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-07 17:43:52</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Encerrado</label>
+            <language>en</language>
+            <name>x_1586050_homework_solicitacao_de_chamados</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-07 17:47:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-12 00:56:57</sys_updated_on>
+            <value>encerrado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Em Atendimento</label>
+            <language>en</language>
+            <name>x_1586050_homework_solicitacao_de_chamados</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-07 17:47:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-12 00:57:00</sys_updated_on>
+            <value>em atendimento</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aberto</label>
+            <language>en</language>
+            <name>x_1586050_homework_solicitacao_de_chamados</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-07 17:47:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-12 00:57:14</sys_updated_on>
+            <value>aberto</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

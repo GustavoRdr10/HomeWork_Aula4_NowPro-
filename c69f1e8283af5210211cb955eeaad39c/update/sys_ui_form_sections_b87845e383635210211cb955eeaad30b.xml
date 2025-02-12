@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b87845e383635210211cb955eeaad30b" sys_domain="global" table="x_1586050_homework_solicitacao_de_chamados" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-12 02:33:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>307885e383635210211cb955eeaad361</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1586050_homework_solicitacao_de_chamados" name="x_1586050_homework_solicitacao_de_chamados" sys_domain="global" view="9a6881e328635210bf75d9b06845e678">b87845e383635210211cb955eeaad30b</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1586050_homework_solicitacao_de_chamados" sys_domain="global" view="9a6881e328635210bf75d9b06845e678">b87885e383635210211cb955eeaad35f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-12 02:33:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-12 02:33:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc7885e383635210211cb955eeaad366</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1586050_homework_solicitacao_de_chamados" name="x_1586050_homework_solicitacao_de_chamados" sys_domain="global" view="9a6881e328635210bf75d9b06845e678">b87845e383635210211cb955eeaad30b</sys_ui_form>
+            <sys_ui_section caption="Descrições:" display_value="Descrições:" name="x_1586050_homework_solicitacao_de_chamados" sys_domain="global" view="9a6881e328635210bf75d9b06845e678">387885e383635210211cb955eeaad365</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-12 02:33:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1586050_homework_solicitacao_de_chamados</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-12 02:33:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b87845e383635210211cb955eeaad30b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1586050_homework_solicitacao_de_chamados</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HomeWork_Aula_4" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HomeWork_Aula_4">c69f1e8283af5210211cb955eeaad39c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b87845e383635210211cb955eeaad30b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-12 02:33:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace HomeWork_Aula_4_NowPro 0" name="workspace-homework_aula_4_nowpro-0">9a6881e328635210bf75d9b06845e678</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Solicitação de Chamados">9551624683af5210211cb955eeaad3f5</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Solicitação de Chamados</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1586050_homework_solicita_o_de_chamados</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1586050_homework.solicita_o_de_chamados_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 17:11:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d51a24683af5210211cb955eeaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Solicitação de Chamados</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HomeWork_Aula_4_NowPro+" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HomeWork_Aula_4_NowPro+">c69f1e8283af5210211cb955eeaad39c</sys_scope>
+        <sys_update_name>sys_app_module_1d51a24683af5210211cb955eeaad31e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 17:11:19</sys_updated_on>
+        <timeline_page/>
+        <title>Solicitação de Chamados</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HomeWork_Aula_4">c69f1e8283af5210211cb955eeaad39c</application>
+        <file_path/>
+        <instance_id>af3ae136db4e7550ba7f684e139619e2</instance_id>
+        <instance_name>dev194570</instance_name>
+        <name>sys_app_module_1d51a24683af5210211cb955eeaad31e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Solicitação de Chamados">9551624683af5210211cb955eeaad3f5</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Solicitação de Chamados</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1586050_homework_solicita_o_de_chamados</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1586050_homework.solicita_o_de_chamados_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-07 17:11:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1d51a24683af5210211cb955eeaad31e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Solicitação de Chamados</sys_name><sys_overrides/><sys_package display_value="HomeWork_Aula_4_NowPro+" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package><sys_policy/><sys_scope display_value="HomeWork_Aula_4_NowPro+">c69f1e8283af5210211cb955eeaad39c</sys_scope><sys_update_name>sys_app_module_1d51a24683af5210211cb955eeaad31e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-07 17:11:19</sys_updated_on><timeline_page/><title>Solicitação de Chamados</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>2037231683</payload_hash>
+        <record_name>Solicitação de Chamados</record_name>
+        <reverted_from/>
+        <source>8e9f1e8283af5210211cb955eeaad3a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 17:11:19</sys_created_on>
+        <sys_id>5551a24683af5210211cb955eeaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194e164fc1e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 17:11:19</sys_updated_on>
+        <type>Module</type>
+        <update_guid>1951a246aeaf52102ca5d8a7f33b6f21</update_guid>
+        <update_guid_history>1951a246aeaf52102ca5d8a7f33b6f21:2037231683</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Solicitação de Chamados">a7812a4683af5210211cb955eeaad30f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 17:12:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>03f1814952a94eec847e30b2147fa5a1</sys_id>
+        <sys_metadata>1d51a24683af5210211cb955eeaad31e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Solicitação de Chamados</sys_name>
+        <sys_package display_value="HomeWork_Aula_4" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HomeWork_Aula_4">c69f1e8283af5210211cb955eeaad39c</sys_scope>
+        <sys_scope_delete display_value="">58bf071ce38447c0ad2acea72ddd1761</sys_scope_delete>
+        <sys_update_name>sys_app_module_1d51a24683af5210211cb955eeaad31e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_1d51a24683af5210211cb955eeaad31e">5551a24683af5210211cb955eeaad322</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 17:12:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

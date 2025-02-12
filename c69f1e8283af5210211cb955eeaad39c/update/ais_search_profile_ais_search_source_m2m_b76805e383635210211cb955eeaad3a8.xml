@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="homeworkaula4nowpro Search Profile">166881e34d6352102ceab2c20a258782</profile>
+        <search_source display_value="Solicitação de Chamados">bf6805e383635210211cb955eeaad3a4</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 02:33:48</sys_created_on>
+        <sys_id>b76805e383635210211cb955eeaad3a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>homeworkaula4nowpro Search Profile.Solicitação de Chamados</sys_name>
+        <sys_package display_value="HomeWork_Aula_4" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HomeWork_Aula_4">c69f1e8283af5210211cb955eeaad39c</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_b76805e383635210211cb955eeaad3a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 02:33:48</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

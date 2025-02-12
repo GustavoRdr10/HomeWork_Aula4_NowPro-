@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Default access control on x_1586050_homework_solicita_o_de_chamados</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1586050_homework_solicita_o_de_chamados</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 17:11:19</sys_created_on>
+        <sys_id>5d51a24683af5210211cb955eeaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1586050_homework_solicita_o_de_chamados</sys_name>
+        <sys_package display_value="HomeWork_Aula_4_NowPro+" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HomeWork_Aula_4_NowPro+">c69f1e8283af5210211cb955eeaad39c</sys_scope>
+        <sys_update_name>sys_security_acl_5d51a24683af5210211cb955eeaad345</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 17:11:19</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HomeWork_Aula_4">c69f1e8283af5210211cb955eeaad39c</application>
+        <file_path/>
+        <instance_id>af3ae136db4e7550ba7f684e139619e2</instance_id>
+        <instance_name>dev194570</instance_name>
+        <name>sys_security_acl_5d51a24683af5210211cb955eeaad345</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>true</advanced><condition/><description>Default access control on x_1586050_homework_solicita_o_de_chamados</description><local_or_existing>Local</local_or_existing><name>x_1586050_homework_solicita_o_de_chamados</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-07 17:11:19</sys_created_on><sys_id>5d51a24683af5210211cb955eeaad345</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1586050_homework_solicita_o_de_chamados</sys_name><sys_package display_value="HomeWork_Aula_4_NowPro+" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package><sys_policy/><sys_scope display_value="HomeWork_Aula_4_NowPro+">c69f1e8283af5210211cb955eeaad39c</sys_scope><sys_update_name>sys_security_acl_5d51a24683af5210211cb955eeaad345</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-07 17:11:19</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1041388897</payload_hash>
+        <record_name>x_1586050_homework_solicita_o_de_chamados</record_name>
+        <reverted_from/>
+        <source>8e9f1e8283af5210211cb955eeaad3a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 17:11:19</sys_created_on>
+        <sys_id>5551a24683af5210211cb955eeaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194e164feb70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 17:11:19</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>5951a2469faf52107593b92a2af1aa47</update_guid>
+        <update_guid_history>5951a2469faf52107593b92a2af1aa47:1041388897</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 17:12:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>627f85519ea44b3295fd761ff534a444</sys_id>
+        <sys_metadata>5d51a24683af5210211cb955eeaad345</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1586050_homework_solicita_o_de_chamados</sys_name>
+        <sys_package display_value="HomeWork_Aula_4" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package>
+        <sys_parent display_value="">2d51a24683af5210211cb955eeaad35e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HomeWork_Aula_4">c69f1e8283af5210211cb955eeaad39c</sys_scope>
+        <sys_scope_delete display_value="">58bf071ce38447c0ad2acea72ddd1761</sys_scope_delete>
+        <sys_update_name>sys_security_acl_5d51a24683af5210211cb955eeaad345</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_5d51a24683af5210211cb955eeaad345">5551a24683af5210211cb955eeaad348</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 17:12:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

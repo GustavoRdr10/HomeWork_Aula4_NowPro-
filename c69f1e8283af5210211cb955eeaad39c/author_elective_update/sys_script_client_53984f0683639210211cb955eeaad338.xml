@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Data de Solicitação não seja inferior à </name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    var dataSolicitacao = g_form.getValue('data_e_hora_da_solicitacao');
+    var dataAtual = new GlideDateTime();
+    
+    if (dataSolicitacao && new GlideDateTime(dataSolicitacao).compareTo(dataAtual) < 0) {
+        g_form.setValue('data_e_hora_da_solicitacao', dataAtual.getDisplayValue());
+        g_form.showFieldMsg('data_e_hora_da_solicitacao', 'A data de solicitação não pode ser inferior à atual', 'error');
+    }
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 20:03:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>53984f0683639210211cb955eeaad338</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Data de Solicitação não seja inferior à </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HomeWork_Aula_4_NowPro+" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HomeWork_Aula_4_NowPro+">c69f1e8283af5210211cb955eeaad39c</sys_scope>
+        <sys_update_name>sys_script_client_53984f0683639210211cb955eeaad338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 20:04:40</sys_updated_on>
+        <table>x_1586050_homework_solicitacao_de_chamados</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HomeWork_Aula_4">c69f1e8283af5210211cb955eeaad39c</application>
+        <file_path/>
+        <instance_id>af3ae136db4e7550ba7f684e139619e2</instance_id>
+        <instance_name>dev194570</instance_name>
+        <name>sys_script_client_53984f0683639210211cb955eeaad338</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Data de Solicitação não seja inferior à &lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    var dataSolicitacao = g_form.getValue('data_e_hora_da_solicitacao');
+    var dataAtual = new GlideDateTime();
+    
+    if (dataSolicitacao &amp;&amp; new GlideDateTime(dataSolicitacao).compareTo(dataAtual) &lt; 0) {
+        g_form.setValue('data_e_hora_da_solicitacao', dataAtual.getDisplayValue());
+        g_form.showFieldMsg('data_e_hora_da_solicitacao', 'A data de solicitação não pode ser inferior à atual', 'error');
+    }
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-07 20:03:50&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;53984f0683639210211cb955eeaad338&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Data de Solicitação não seja inferior à &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="HomeWork_Aula_4_NowPro+" source="x_1586050_homework"&gt;c69f1e8283af5210211cb955eeaad39c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="HomeWork_Aula_4_NowPro+"&gt;c69f1e8283af5210211cb955eeaad39c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_53984f0683639210211cb955eeaad338&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-07 20:04:40&lt;/sys_updated_on&gt;&lt;table&gt;x_1586050_homework_solicitacao_de_chamados&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1138902654</payload_hash>
+        <record_name>Data de Solicitação não seja inferior à </record_name>
+        <reverted_from/>
+        <source>8e9f1e8283af5210211cb955eeaad3a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 20:04:40</sys_created_on>
+        <sys_id>6c098b0683639210211cb955eeaad36e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194e203b1740000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 20:04:40</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>24098b06796392104eccebedc37cc96e</update_guid>
+        <update_guid_history>24098b06796392104eccebedc37cc96e:-1138902654,10d80b8213639210ea6fd2022579f048:-1204681777</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 15:53:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>64da7632ce094d009ce4387b713ded90</sys_id>
+        <sys_metadata>53984f0683639210211cb955eeaad338</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data de Solicitação não seja inferior à </sys_name>
+        <sys_package display_value="HomeWork_Aula_4" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package>
+        <sys_parent display_value="Solicitação de Chamados">94a16a4683af5210211cb955eeaad326</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HomeWork_Aula_4">c69f1e8283af5210211cb955eeaad39c</sys_scope>
+        <sys_scope_delete display_value="">58bf071ce38447c0ad2acea72ddd1761</sys_scope_delete>
+        <sys_update_name>sys_script_client_53984f0683639210211cb955eeaad338</sys_update_name>
+        <sys_update_version display_value="sys_script_client_53984f0683639210211cb955eeaad338">6c098b0683639210211cb955eeaad36e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 15:53:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
