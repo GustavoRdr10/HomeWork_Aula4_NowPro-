@@ -1369,116 +1369,66 @@
                         },
                         "dataPassthrough": {
                             "type": "JSON_LITERAL",
-                            "value": [
-                                {
-                                    "data": [
-                                        {
-                                            "assignment_group": "Service Desk",
-                                            "value": "12"
-                                        },
-                                        {
-                                            "assignment_group": "Hardware",
-                                            "value": "9"
-                                        },
-                                        {
-                                            "assignment_group": "Software",
-                                            "value": "9"
-                                        },
-                                        {
-                                            "assignment_group": "Network",
-                                            "value": "6"
-                                        },
-                                        {
-                                            "assignment_group": "Database",
-                                            "value": "2"
-                                        },
-                                        {
-                                            "assignment_group": "Openspace",
-                                            "value": "1"
-                                        }
-                                    ],
-                                    "metadata": {
-                                        "aggregateBy": 4,
-                                        "dataSourceLabel": "Incident",
-                                        "eventData": {
-                                            "table": "incident"
-                                        },
-                                        "format": {
-                                            "unitFormat": "{0}"
-                                        },
-                                        "groupBy": [
-                                            {
-                                                "elements": [
-                                                    {
-                                                        "eventData": {
-                                                            "query": "assignment_group="
-                                                        },
-                                                        "id": "",
-                                                        "label": "(empty)"
-                                                    },
-                                                    {
-                                                        "eventData": {
-                                                            "query": "assignment_group=d625dccec0a8016700a222a0f7900d06"
-                                                        },
-                                                        "id": "d625dccec0a8016700a222a0f7900d06",
-                                                        "label": "Service Desk"
-                                                    },
-                                                    {
-                                                        "eventData": {
-                                                            "query": "assignment_group=8a5055c9c61122780043563ef53438e3"
-                                                        },
-                                                        "id": "8a5055c9c61122780043563ef53438e3",
-                                                        "label": "Hardware"
-                                                    },
-                                                    {
-                                                        "eventData": {
-                                                            "query": "assignment_group=8a4dde73c6112278017a6a4baf547aa7"
-                                                        },
-                                                        "id": "8a4dde73c6112278017a6a4baf547aa7",
-                                                        "label": "Software"
-                                                    },
-                                                    {
-                                                        "eventData": {
-                                                            "query": "assignment_group=287ebd7da9fe198100f92cc8d1d2154e"
-                                                        },
-                                                        "id": "287ebd7da9fe198100f92cc8d1d2154e",
-                                                        "label": "Network"
-                                                    },
-                                                    {
-                                                        "eventData": {
-                                                            "query": "assignment_group=287ee6fea9fe198100ada7950d0b1b73"
-                                                        },
-                                                        "id": "287ee6fea9fe198100ada7950d0b1b73",
-                                                        "label": "Database"
-                                                    },
-                                                    {
-                                                        "eventData": {
-                                                            "query": "assignment_group=36c741fa731313005754660c4cf6a70d"
-                                                        },
-                                                        "id": "36c741fa731313005754660c4cf6a70d",
-                                                        "label": "Openspace"
-                                                    }
-                                                ],
-                                                "fieldType": "reference",
-                                                "id": "assignment_group",
-                                                "label": "Assignment group",
-                                                "series": [
-                                                    {
-                                                        "id": "value",
-                                                        "label": "Incident",
-                                                        "type": "value"
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "metricId": "ZEdGaWJHVnBibU5wWkdWdWRERTJORFl5TXpRNE5UTXpNams9MTY0NjIzNDg1NTEwNg=="
-                                    }
-                                }
-                            ]
+                            "value": null
                         },
                         "dataSources": {
-                            "type": "JSON_LITERAL",
-                            "value": null
+                            "container": [
+                                {
+                                    "container": {
+                                        "allowRealTime": {
+                                            "type": "JSON_LITERAL",
+                                            "value": true
+                                        },
+                                        "dataCategories": {
+                                            "type": "JSON_LITERAL",
+                                            "value": [
+                                                "trend",
+                                                "group",
+                                                "simple"
+                                            ]
+                                        },
+                                        "filterQuery": {
+                                            "type": "JSON_LITERAL",
+                                            "value": ""
+                                        },
+                                        "id": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "dGFibGV4XzE1ODYwNTBfaG9tZXdvcmtfc29saWNpdGFjYW9fZGVfY2hhbWFkb3MxNzM5NDAxNTYzOTk0"
+                                        },
+                                        "isDatabaseView": {
+                                            "type": "JSON_LITERAL",
+                                            "value": false
+                                        },
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Solicitação de Chamados"
+                                            }
+                                        },
+                                        "preferredVisualizations": {
+                                            "type": "JSON_LITERAL",
+                                            "value": [
+                                                "d24d53f60350de7a652caf3188a46ed2"
+                                            ]
+                                        },
+                                        "reportSourceSysId": {
+                                            "type": "JSON_LITERAL"
+                                        },
+                                        "sourceType": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "table"
+                                        },
+                                        "tableOrViewName": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "x_1586050_homework_solicitacao_de_chamados"
+                                        }
+                                    },
+                                    "type": "MAP_CONTAINER"
+                                }
+                            ],
+                            "type": "LIST_CONTAINER"
                         },
                         "dateFormat": {
                             "type": "JSON_LITERAL",
@@ -1562,7 +1512,22 @@
                         },
                         "groupBy": {
                             "type": "JSON_LITERAL",
-                            "value": null
+                            "value": [
+                                {
+                                    "groupBy": [
+                                        {
+                                            "dataSource": "dGFibGV4XzE1ODYwNTBfaG9tZXdvcmtfc29saWNpdGFjYW9fZGVfY2hhbWFkb3MxNzM5NDAxNTYzOTk0",
+                                            "groupByField": "estado",
+                                            "isChoice": true,
+                                            "isPaBucket": false,
+                                            "isRange": false
+                                        }
+                                    ],
+                                    "maxNumberOfGroups": "ALL",
+                                    "numberOfGroupsBasedOn": "NO_OF_GROUP_BASED_ON_PER_METRIC",
+                                    "showOthers": false
+                                }
+                            ]
                         },
                         "groupByConfig": {
                             "type": "JSON_LITERAL",
@@ -1641,8 +1606,36 @@
                             "value": null
                         },
                         "metrics": {
-                            "type": "JSON_LITERAL",
-                            "value": null
+                            "container": [
+                                {
+                                    "container": {
+                                        "aggregateFunction": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "COUNT"
+                                        },
+                                        "axisId": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "primary"
+                                        },
+                                        "dataSource": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "dGFibGV4XzE1ODYwNTBfaG9tZXdvcmtfc29saWNpdGFjYW9fZGVfY2hhbWFkb3MxNzM5NDAxNTYzOTk0"
+                                        },
+                                        "id": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "ZEdGaWJHVjRYekUxT0RZd05UQmZhRzl0WlhkdmNtdGZjMjlzYVdOcGRHRmpZVzlmWkdWZlkyaGhiV0ZrYjNNeE56TTVOREF4TlRZek9UazAxNzM5NDAxNTY1MjY1"
+                                        },
+                                        "numberFormat": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "customFormat": false
+                                            }
+                                        }
+                                    },
+                                    "type": "MAP_CONTAINER"
+                                }
+                            ],
+                            "type": "LIST_CONTAINER"
                         },
                         "newReporting": {
                             "type": "JSON_LITERAL",
@@ -1727,7 +1720,7 @@
                         },
                         "showDataPassthrough": {
                             "type": "JSON_LITERAL",
-                            "value": true
+                            "value": false
                         },
                         "showDateRangeByDefault": {
                             "type": "JSON_LITERAL",
@@ -2027,11 +2020,11 @@
                 },
                 {
                     "definition": {
-                        "id": "96abe7e38d8790718022c5630a92176c",
+                        "id": "23051643b7e03010097cb81cde11a910",
                         "type": "MACROPONENT"
                     },
                     "elementId": "single_score_4",
-                    "elementLabel": "Pie 1",
+                    "elementLabel": "Vertical bar 1",
                     "eventMappings": [
                         
                     ],
@@ -2099,6 +2092,10 @@
                             "type": "JSON_LITERAL",
                             "value": "group"
                         },
+                        "dataLabelPosition": {
+                            "type": "JSON_LITERAL",
+                            "value": "middle"
+                        },
                         "dataLabelsType": {
                             "type": "JSON_LITERAL",
                             "value": "both"
@@ -2125,7 +2122,7 @@
                                         },
                                         "filterQuery": {
                                             "type": "JSON_LITERAL",
-                                            "value": "prioridadeIN1 - alta,2 - média,3 - baixa"
+                                            "value": ""
                                         },
                                         "id": {
                                             "type": "JSON_LITERAL",
@@ -2254,12 +2251,13 @@
                                     "groupBy": [
                                         {
                                             "dataSource": "dGFibGV4XzE1ODYwNTBfaG9tZXdvcmtfc29saWNpdGFjYW9fZGVfY2hhbWFkb3MxNzM5Mzk3MTUzNTYy",
-                                            "groupByField": "sys_created_on",
-                                            "isChoice": false,
+                                            "groupByField": "prioridade",
+                                            "isChoice": true,
                                             "isPaBucket": false,
-                                            "isRange": true
+                                            "isRange": false
                                         }
                                     ],
+                                    "hideZeroValues": false,
                                     "maxNumberOfGroups": "ALL",
                                     "numberOfGroupsBasedOn": "NO_OF_GROUP_BASED_ON_PER_METRIC",
                                     "showOthers": false
@@ -2271,8 +2269,12 @@
                             "value": null
                         },
                         "headerTitle": {
-                            "type": "JSON_LITERAL",
-                            "value": null
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Prioridades"
+                            }
                         },
                         "headingLevel": {
                             "type": "JSON_LITERAL",
@@ -2485,7 +2487,7 @@
                         },
                         "showHeaderSeparator": {
                             "type": "JSON_LITERAL",
-                            "value": false
+                            "value": true
                         },
                         "showLegend": {
                             "type": "JSON_LITERAL",
@@ -2502,6 +2504,10 @@
                         "showMetricLabel": {
                             "type": "JSON_LITERAL",
                             "value": null
+                        },
+                        "showOverlappingLabels": {
+                            "type": "JSON_LITERAL",
+                            "value": false
                         },
                         "showRegister": {
                             "type": "JSON_LITERAL",
@@ -2534,6 +2540,10 @@
                         "showSparkline": {
                             "type": "JSON_LITERAL",
                             "value": false
+                        },
+                        "showStackedValues": {
+                            "type": "JSON_LITERAL",
+                            "value": "none"
                         },
                         "showSubAggregate": {
                             "type": "JSON_LITERAL",
@@ -2615,9 +2625,21 @@
                             "type": "JSON_LITERAL",
                             "value": false
                         },
+                        "xAxisMaxLabelSize": {
+                            "type": "JSON_LITERAL",
+                            "value": 100
+                        },
                         "xAxisTitle": {
                             "type": "JSON_LITERAL",
                             "value": null
+                        },
+                        "xAxisTruncationType": {
+                            "type": "JSON_LITERAL",
+                            "value": "end"
+                        },
+                        "xAxisWrapLabels": {
+                            "type": "JSON_LITERAL",
+                            "value": false
                         },
                         "yAxis0From": {
                             "type": "JSON_LITERAL",
@@ -2699,13 +2721,39 @@
                             "type": "JSON_LITERAL",
                             "value": null
                         },
+                        "yAxisFrom": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "yAxisHidden": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "yAxisPosition": {
+                            "type": "JSON_LITERAL",
+                            "value": "bottom"
+                        },
+                        "yAxisShowGrid": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
                         "yAxisStyle": {
                             "type": "JSON_LITERAL",
                             "value": "default"
+                        },
+                        "yAxisTitle": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "yAxisTo": {
+                            "type": "JSON_LITERAL",
+                            "value": null
                         }
                     },
                     "slot": null,
-                    "styles": null
+                    "styles": {
+                        "height": null
+                    }
                 }
             ],
             "layout": {
@@ -3459,40 +3507,16 @@
     }
 ]</props>
         <required_translations>[ {
-  "message" : "(empty)",
-  "comment" : ""
-}, {
   "message" : "All Active Tasks",
-  "comment" : ""
-}, {
-  "message" : "Assignment group",
-  "comment" : ""
-}, {
-  "message" : "Database",
   "comment" : ""
 }, {
   "message" : "Estados",
   "comment" : ""
 }, {
-  "message" : "Hardware",
-  "comment" : ""
-}, {
-  "message" : "Incident",
-  "comment" : ""
-}, {
-  "message" : "Network",
-  "comment" : ""
-}, {
   "message" : "No data available.",
   "comment" : ""
 }, {
-  "message" : "Openspace",
-  "comment" : ""
-}, {
-  "message" : "Service Desk",
-  "comment" : ""
-}, {
-  "message" : "Software",
+  "message" : "Prioridades",
   "comment" : ""
 }, {
   "message" : "Solicitação de Chamados",
@@ -3515,14 +3539,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-12 02:33:43</sys_created_on>
         <sys_id>de6881e302635210e9ceba54e74b186c</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="HomeWork_Aula_4" source="x_1586050_homework">c69f1e8283af5210211cb955eeaad39c</sys_package>
         <sys_policy/>
         <sys_scope display_value="HomeWork_Aula_4">c69f1e8283af5210211cb955eeaad39c</sys_scope>
         <sys_update_name>sys_ux_macroponent_de6881e302635210e9ceba54e74b186c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-12 22:29:16</sys_updated_on>
+        <sys_updated_on>2025-02-13 00:08:52</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=de6881e302635210e9ceba54e74b186c"/>
 </record_update>
